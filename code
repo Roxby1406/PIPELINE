@@ -1,0 +1,8 @@
+pipeline{
+    nginx any1
+    stage('nginx 1') {
+        steps {
+            echo 'hello world'
+        }
+    }
+}
